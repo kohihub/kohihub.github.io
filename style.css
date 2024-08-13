@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+body {
+  background-color: #131313;
+  font-family: "Space Mono", monospace;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: #010101;
+  }
+}
+
+div {
+  position: absolute;
+  background: #010101;
+  border-radius: 10px;
+  width: 600px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1024px) {
+  div {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+  }
+}
+
+
+
+pre {
+ top: 130px;
+ right: 60px;
+ position: absolute;
+ font-size: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  pre {
+      visibility: hidden;
+
+  }
+}
+
+
+info {
+  left: 0px;
+  position: absolute;
+  width: 42%;
+  height: 400px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  info {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 100%;
+    font-size: 44px;
+    
+  }
+}
+
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+b {
+  color: #e60000;
+}
+
+white {
+  background: #ffffff;
+  width: 25px;
+  height: 25px;
+}
+
+blue {
+  width: 25px;
+  height: 25px;
+  background: #139CB7ff;
+}
+
+colorpalate {
+  display: flex;
+  position: absolute;
+  width: 125px;
+  height: 25px;
+  left: 40px;
+}
