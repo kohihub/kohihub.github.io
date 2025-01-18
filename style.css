@@ -60,6 +60,7 @@ h1 {
   width: 42%;
   height: 400px;
   font-size: 15px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 1024px) {
@@ -92,4 +93,3 @@ a:hover {
 b {
   color:#86cecb;
 }
-
