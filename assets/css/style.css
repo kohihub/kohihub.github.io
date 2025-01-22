@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+body {
+  background-color: #131313;
+   background-image: url("https://i.imgur.com/ynvN7WE.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+  font-family: "Space Mono", monospace;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: #010101;
+    background-position: top;
+    background-size: 300%;
+
+  }
+}
+
+.container {
+  position: absolute;
+  background: rgba(01,01,01,0.7);
+  border-radius: 10px;
+  width: 900px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-x: hidden;
+  overflow-anchor: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+  }
+  
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  pre {
+      visibility: hidden;
+
+  }
+}
+
+
+.sidea {
+  left: 30px;
+  position: absolute;
+  width: 42%;
+  height: 400px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  .sidea {
+    position: relative;
+    left: 30px;
+    width: 100%;
+    font-size: 32px;
+    
+  }
+}
+
+
+
+
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+b {
+  color:#86cecb;
+}
